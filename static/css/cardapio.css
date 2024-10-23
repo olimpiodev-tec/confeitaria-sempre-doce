@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f8b400;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.cake-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cake-item {
+    width: 20%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cake-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.cake-item h3 {
+    margin-bottom: 5px;
+    color: #f8b400;
+}
+
+.cake-item p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cake-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.cake-item img {
+    width: 100%;
+    max-width: 200px; /* Largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para a imagem */
+}
+
+.cake-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cake-item p {
+    font-size: 1em;
+    color: #666;
+}

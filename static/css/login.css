@@ -1,0 +1,67 @@
+body {
+    background: #cdcdcd
+}
+
+* {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Estilos adicionais para a página de login */
+        .login-container {
+            width: 400px;
+            margin: 100px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .login-container h1 {
+            margin-bottom: 20px;
+            color: #f8b400;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            text-align: left;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #e65a50;
+        }
+
+        .back-to-home {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .back-to-home a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Confeitaria Delícia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cardapio.css') }}">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Confeitaria Sempre Doce</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('inicial') }}">Início</a></li>
+                <li><a href="{{ url_for('sobre') }}">Sobre</a></li>
+                <li><a href="{{ url_for('cardapio') }}">Cardápio</a></li>
+                <li><a href="{{ url_for('contato') }}">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="menu">
+    <div class="container">
+        <h2>Cardápio</h2>
+        <div class="cake-grid">
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+            <div class="cake-item">
+                <img src="../static/img/bolo.jpg" alt="Bolo">
+                <h3>
+                    <a href="">Bolo de Chocolate</a>
+                </h3>
+                <p>R$ 50,00</p>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Confeitaria Delícia. Todos os direitos reservados.</p>
+    </div>
+</footer>
+</body>
+</html>
