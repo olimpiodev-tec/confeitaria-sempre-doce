@@ -1,7 +1,7 @@
 # Confeitaria Sempre Doce
 Projeto para confeitaria sempre doce desenvolvido com python e flask.
 
-## Objetivos
+### Objetivos
 - Aprender a utilizar o framework flask renderizando páginas web.
 - Tratar diferentes tipos de requisições (GET, POST) na mesma url.
 - Estruturar corretamente o projeto flask conforme a documentação pede.
