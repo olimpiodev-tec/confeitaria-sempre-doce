@@ -1,5 +1,6 @@
 # Confeitaria Sempre Doce
 Projeto para confeitaria sempre doce desenvolvido com python e flask.
+Está publicado na plataforma render [neste link](https://confeitaria-sempre-doce-urmx.onrender.com/)
 
 ### Objetivos
 - Aprender a utilizar o framework flask renderizando páginas web.
