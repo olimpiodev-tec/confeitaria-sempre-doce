@@ -1,4 +1,3 @@
-```markdown
 # 🍰 Confeitaria Sempre Doce
 
 Sistema web desenvolvido para a **Confeitaria Sempre Doce**, com o objetivo de facilitar o gerenciamento de produtos, pedidos e atendimento ao cliente.
@@ -27,7 +26,6 @@ Sistema web desenvolvido para a **Confeitaria Sempre Doce**, com o objetivo de f
  ┃ ┗ 📄 (imagens do site)
  ┣ 📄 index.html
  ┗ 📄 README.md
-```
 
 ## 🧠 Como Contribuir
 
