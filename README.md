@@ -18,7 +18,7 @@ Sistema web desenvolvido para a **Confeitaria Sempre Doce**, com o objetivo de f
 
 ## 📂 Estrutura do Projeto
 
-```plaintext
+
 📁 confeitaria-sempre-doce
  ┣ 📁 css
  ┃ ┗ 📄 style.css
